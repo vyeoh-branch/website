@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Vanessa Yeoh">
+
+    <title>Branch Journey Test</title>
+    <script>
+    // load Branch
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking".split(" "), 0);
+    branch.init('key_live_hkDytPACtipny3N9XmnbZlapBDdj4WIL');
+    branch.track('pageview');
+    branch.setBranchViewData({
+        data: {
+            'fontSize': '20px',
+            'adjective': 'most entertaining',
+            '$deeplink_path': 'picture/12345',
+            'picture_id': '12345',
+            'user_id': '45123'
+            '$journeys_button_get_no_app':'Install App 1',
+            '$journeys_button_get_has_app': 'Open App',
+            '$journeys_title':'Download this app today',
+            '$journeys_icon_image_url':'https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/58/e0/1d/58e01d7f-bd7e-318a-2397-60ec840cd3a2/AppIcon-1x_U007emarketing-85-220-5.png/246x0w.jpg'
+        }
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>
