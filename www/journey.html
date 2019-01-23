@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Vanessa Yeoh">
-
     <title>Branch Journey Test</title>
     <script>
     // load Branch
     (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking".split(" "), 0);
-    branch.init('key_live_hkDytPACtipny3N9XmnbZlapBDdj4WIL');
+    branch.init('key_live_pcJhw10GfBeEsDkymEtlPcafAEhGxNZt');
     branch.track('pageview');
     branch.setBranchViewData({
         data: {
@@ -19,7 +18,7 @@
             'adjective': 'most entertaining',
             '$deeplink_path': 'picture/12345',
             'picture_id': '12345',
-            'user_id': '45123'
+            'user_id': '45123',
             '$journeys_button_get_no_app':'Install App 1',
             '$journeys_button_get_has_app': 'Open App',
             '$journeys_title':'Download this app today',
@@ -29,5 +28,6 @@
   </script>
 </head>
 <body>
+  You have landed on an awesome journey page!
 </body>
 </html>
